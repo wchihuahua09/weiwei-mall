@@ -9,11 +9,21 @@
     <packaging>pom</packaging>
     <description>聚合服务</description>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.6</version> <!-- 使用你的 Spring Boot 版本 -->
+        <relativePath /> <!-- 设置为空，表示不查找本地父级 POM -->
+    </parent>
+
     <modules>
         <module>weiweimall-coupon</module>
         <module>weiweimall-member</module>
         <module>weiweimall-order</module>
         <module>weiweimall-product</module>
         <module>weiweimall-ware</module>
+        <module>weiweimall-common</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
     </modules>
 </project>
