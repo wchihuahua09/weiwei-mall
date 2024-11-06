@@ -16,6 +16,9 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+#logging:
+#  level:
+#    root: DEBUG
 
 server:
   port: 8081
